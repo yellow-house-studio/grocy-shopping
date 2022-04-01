@@ -5,13 +5,17 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YellowHouseStudio.GrocyShopping", "src\YellowHouseStudio.GrocyShopping\YellowHouseStudio.GrocyShopping.csproj", "{8DBE0D88-D51D-4761-9F36-EE282BE72B25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YellowHouseStudio.EmailReader", "src\YellowHouseStudio.EmailReader\YellowHouseStudio.EmailReader.csproj", "{FACE3708-1963-4E9C-AE26-4C880E1E3911}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YellowHouseStudio.EmailReader", "src\YellowHouseStudio.EmailReader\YellowHouseStudio.EmailReader.csproj", "{FACE3708-1963-4E9C-AE26-4C880E1E3911}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{88512A17-9236-446C-A796-C817DAB415D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YellowHouseStudio.Tests.UnitTests", "test\YellowHouseStudio.Tests.UnitTests\YellowHouseStudio.Tests.UnitTests.csproj", "{D2B1C7CC-434C-4E9F-BC32-239C33EE62D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YellowHouseStudio.Tests.UnitTests", "test\YellowHouseStudio.Tests.UnitTests\YellowHouseStudio.Tests.UnitTests.csproj", "{D2B1C7CC-434C-4E9F-BC32-239C33EE62D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YellowHouseStudio.GrocyShopping.Citygross", "src\YellowHouseStudio.GrocyShopping.Citygross\YellowHouseStudio.GrocyShopping.Citygross.csproj", "{4A098B2A-96CE-49A4-94E6-E30EAE6C05AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YellowHouseStudio.GrocyShopping.Citygross", "src\YellowHouseStudio.GrocyShopping.Citygross\YellowHouseStudio.GrocyShopping.Citygross.csproj", "{4A098B2A-96CE-49A4-94E6-E30EAE6C05AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YellowHouseStudio.Tests.TestHelpers", "test\YellowHouseStudio.Tests.TestHelpers\YellowHouseStudio.Tests.TestHelpers.csproj", "{679998E0-3929-4B7E-AA57-0A6DF7B6DDF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YellowHouseStudio.GrocyShopping.DataAccess", "src\YellowHouseStudio.GrocyShopping.DataAccess\YellowHouseStudio.GrocyShopping.DataAccess.csproj", "{BAFBAD3B-AE8F-4501-A34A-9D3BCC1E8277}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,12 +39,21 @@ Global
 		{4A098B2A-96CE-49A4-94E6-E30EAE6C05AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A098B2A-96CE-49A4-94E6-E30EAE6C05AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A098B2A-96CE-49A4-94E6-E30EAE6C05AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{679998E0-3929-4B7E-AA57-0A6DF7B6DDF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{679998E0-3929-4B7E-AA57-0A6DF7B6DDF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{679998E0-3929-4B7E-AA57-0A6DF7B6DDF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{679998E0-3929-4B7E-AA57-0A6DF7B6DDF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAFBAD3B-AE8F-4501-A34A-9D3BCC1E8277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAFBAD3B-AE8F-4501-A34A-9D3BCC1E8277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAFBAD3B-AE8F-4501-A34A-9D3BCC1E8277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAFBAD3B-AE8F-4501-A34A-9D3BCC1E8277}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D2B1C7CC-434C-4E9F-BC32-239C33EE62D1} = {88512A17-9236-446C-A796-C817DAB415D1}
+		{679998E0-3929-4B7E-AA57-0A6DF7B6DDF7} = {88512A17-9236-446C-A796-C817DAB415D1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E27DA250-ADCC-481C-9A3F-48A3F67439B1}
